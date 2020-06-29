@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Desafio Teste - Modulo 1</title>
+  </head>
+  <body>
+    <p>Desafio teste 1</p>
+
+    <div class="flex-row">
+      <span class="label">(R) - Vermelho</span>
+      <input
+        type="range"
+        class="range"
+        id="inputRangeVermelho"
+        value="0"
+        min="0"
+        max="255"
+      />
+      <input type="text" disabled class="text" id="inputTextVermelho" />
+    </div>
+
+    <div class="flex-row">
+      <span class="label">(G) - Verde</span>
+      <input
+        type="range"
+        class="range"
+        id="inputRangeVerde"
+        value="0"
+        min="0"
+        max="255"
+      />
+      <input type="text" disabled class="text" id="inputTextVerde" />
+    </div>
+
+    <div class="flex-row">
+      <span class="label">(B) - Azul</span>
+      <input
+        type="range"
+        class="range"
+        id="inputRangeAzul"
+        value="0"
+        min="0"
+        max="255"
+      />
+      <input type="text" disabled class="text" id="inputTextAzul" />
+    </div>
+
+    <div id="divSquare" class="square"></div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
